@@ -9,9 +9,15 @@ This is the beginning of what will have to be a very large and complex project. 
 - [ ] Develop configurable RISC-V soft core for FPGA implementation.
 
 ## Quick Start
+This project creates a Python3 virtual environment in the absinthe-clf project directory.  Needed modules are installed into that virtual environment.
+
+To configure build environment:
 ```bash
 git clone https://github.com/edwardgjohns3/absinthe-clf.git
 cd absinthe-clf
-python3 -m venv venv
-venv/bin/python3 doit.py
+python3 dodo.py
+```
+To run build:
+```bash
+python3 dodo.py
 ```
