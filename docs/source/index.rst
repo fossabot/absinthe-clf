@@ -7,13 +7,3 @@ Absinthe Configurable Logic Framework
    intro
    getting_started
    license
-
-Index
-*****
-
-* :ref:`genindex`
-
-Search
-******
-
-* :ref:`search`
