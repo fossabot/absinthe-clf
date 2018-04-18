@@ -6,7 +6,7 @@ This is the beginning of what will have to be a very large and complex project. 
 
 - [x] Configure cross-platform Python local build environment (automation with doit).
 - [ ] Configure travis-ci build.
-- [ ] Configure document generation using readthedocs.
+- [x] Configure document generation using readthedocs.
 - [ ] Implement extensible RISC-V32i ALU as Python module to validate MyHDL toolchain (including tests).
 - [ ] Develop configurable RISC-V soft core for FPGA implementation.
 
