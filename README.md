@@ -5,6 +5,7 @@ Absinthe Configurable Logic Framework
 This is the beginning of what will have to be a very large and complex project.  There are a lot of goals and where this is going to go is not well defined, so we'll see.  The following are some near-term goals:
 
 - [x] Configure cross-platform Python build environment (command line scripts)
+- [ ] Configure document generation using readthedocs.
 - [ ] Implement extensible RISC-V32i ALU as Python module to validate MyHDL toolchain (including tests).
 - [ ] Develop configurable RISC-V soft core for FPGA implementation.
 
