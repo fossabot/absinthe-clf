@@ -5,8 +5,8 @@ Absinthe Configurable Logic Framework
 -------------------------------------
 
 .. toctree::
+   :caption: Contents
    :maxdepth: 2
-   :caption: Contents:
 
    license
 
