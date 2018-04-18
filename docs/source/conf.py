@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AbsintheConfigurableLogicFrameworkdoc'
+htmlhelp_basename = 'Absinthe-CLF'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AbsintheConfigurableLogicFramework.tex', 'Absinthe Configurable Logic Framework',
+    (master_doc, 'AbsintheCLF.tex', 'Absinthe Configurable Logic Framework',
      'Edward Johns', 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'absintheconfigurablelogicframework', 'Absinthe Configurable Logic Framework',
+    (master_doc, 'absinthe-clf', 'Absinthe Configurable Logic Framework',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'AbsintheConfigurableLogicFramework', 'Absinthe Configurable Logic Framework',
-     author, 'AbsintheConfigurableLogicFramework', 'Framework for parametric generation of soft IP cores and development toolchains.',
+    (master_doc, 'Absinthe-CLF', 'Absinthe Configurable Logic Framework',
+     author, 'Absinthe-CLF', 'Framework for parametric generation of soft IP cores and development toolchains.',
      'Miscellaneous'),
 ]
 

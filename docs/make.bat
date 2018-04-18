@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=AbsintheConfigurableLogicFramework
+set SPHINXPROJ=Absinthe-CLF
 
 if "%1" == "" goto help
 
