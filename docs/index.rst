@@ -1,6 +1,9 @@
 Absinthe-CLF
 ============
 
+Absinthe Configurable Logic Framework
+-------------------------------------
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -11,15 +14,23 @@ Absinthe-CLF
 Introduction
 ************
 
+Introduction.
+
 ***************
 Getting Started
 ***************
 
-******************
-Indices and tables
-******************
+Getting started...
+
+*****
+Index
+*****
 
 * :ref:`genindex`
-* :ref:`modindex`
+
+******
+Search
+******
+
 * :ref:`search`
 
