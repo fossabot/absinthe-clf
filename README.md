@@ -1,4 +1,4 @@
-# absinthe-clf
+# absinthe-clf [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Absinthe Configurable Logic Framework
 
 ## Project Goals
