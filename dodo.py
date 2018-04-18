@@ -17,7 +17,7 @@ def task_install_dependencies():
 
   return {
     'actions': [install_dependencies],
-    'targets': ['myhdl', 'sphinx', 'sphinx-autobuild'],
+    'targets': ['myhdl'],
     'file_dep': ['venv/bin/python3'],
     'verbosity': 2
   }
@@ -34,7 +34,7 @@ if __name__ == '__main__':
       print('\nInstalling Python 3 virtual environment...')
       call(['python3', '-m', 'venv', 'venv'])
       print('  Installing Python automation tools...\n')
-      call(['venv/bin/pip3', 'install', 'doit', 'wheel', 'setuptools'])
+      call(['venv/bin/pip3', 'install', 'doit', 'wheel', 'setuptools', 'sphinx', 'sphinx-autobuild'])
 
     print('\nRunning build tools...\n')
     call(["venv/bin/doit"])
