@@ -5,7 +5,7 @@ Absinthe-CLF
    :maxdepth: 2
    :caption: Contents:
 
-   license.rst
+   license
 
 ************
 Introduction
