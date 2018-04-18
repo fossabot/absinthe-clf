@@ -15,9 +15,8 @@ To configure build environment:
 ```bash
 git clone https://github.com/edwardgjohns3/absinthe-clf.git
 cd absinthe-clf
-python3 dodo.py
 ```
-To run build:
+To perform build:
 ```bash
 python3 dodo.py
 ```
