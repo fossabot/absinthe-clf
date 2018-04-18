@@ -17,7 +17,7 @@ def task_install_dependencies():
 
   return {
     'actions': [install_dependencies],
-    'targets': ['myhdl'],
+    'targets': ['myhdl', 'sphinx', 'sphinx-autobuild'],
     'file_dep': ['venv/bin/python3'],
     'verbosity': 2
   }
