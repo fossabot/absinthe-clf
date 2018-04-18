@@ -5,13 +5,13 @@ In order to use Absinth-CLF, Python 3 must be installed on the development works
 
 To download the project:
 
-.. code-block:: console
+.. code-block:: bash
 
-  $ git clone https://github.com/edwardgjohns3/absinthe-clf.git
-  $ cd absinthe-clf
+  git clone https://github.com/edwardgjohns3/absinthe-clf.git
+  cd absinthe-clf
 
 To configure the toolchain and perform build:
 
-.. code-block:: console
+.. code-block:: bash
 
-  $ python3 dodo.py
+  python3 dodo.py
