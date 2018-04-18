@@ -129,8 +129,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Absinthe-CLF.tex', 'Absinthe-CLF Documentation',
-     'Ed Johns', 'manual'),
+    (master_doc, 'Absinthe-CLF.tex', 'Absinthe-CLF',
+     'Edward Johns', 'manual'),
 ]
 
 
