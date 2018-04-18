@@ -7,9 +7,9 @@ REM Command file for Sphinx documentation
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=..\venv\bin\sphinx-build
 )
-set SOURCEDIR=.
-set BUILDDIR=_build
-set SPHINXPROJ=Absinthe-CLF
+set SOURCEDIR=source
+set BUILDDIR=build
+set SPHINXPROJ=AbsintheConfigurableLogicFramework
 
 if "%1" == "" goto help
 
