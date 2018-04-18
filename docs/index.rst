@@ -1,8 +1,5 @@
-Absinthe-CLF
-============
-
 Absinthe Configurable Logic Framework
--------------------------------------
+=====================================
 
 .. toctree::
    :caption: Contents
