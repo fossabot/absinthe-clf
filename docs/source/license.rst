@@ -1,7 +1,7 @@
 License
 *******
 
-:index:`MIT License <pair: MIT; license>`
+:index:`MIT License <single: license; MIT>`
 
 Copyright (c) 2018 Ed Johns
 
