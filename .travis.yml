@@ -1,6 +1,6 @@
 language: c
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -qq python3.5 python3-pip python3.5-venv
+  - sudo apt-get install -qq python3.5 python3-pip python3-venv
 script:
   - python3 dodo.py
