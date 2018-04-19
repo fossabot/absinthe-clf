@@ -4,4 +4,6 @@ language: python
 python: 3.5.3
 before_install:
 script:
+  - pwd
+  - ls
   - python3 dodo.py
