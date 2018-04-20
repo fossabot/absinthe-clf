@@ -22,6 +22,13 @@ def task_install_dependencies():
     'verbosity': 2
   }
 
+def task_run_tests():
+  """Run pytest tests."""
+  return {
+    'actions': [lambda : print("  not implemented.")],
+    'verbosity': 2
+  }
+
 if __name__ == '__main__':
     from subprocess import call
 

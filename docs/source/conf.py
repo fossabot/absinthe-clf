@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 
 project = 'Absinthe Configurable Logic Framework'
-copyright = '2018, Edward Johns'
-author = 'Edward Johns'
+copyright = '2018, The Absinthe-CLF Team'
+author = 'The Absinthe-CLF Team'
 
 # The short X.Y version
 version = '0.0'
@@ -130,7 +130,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'AbsintheCLF.tex', 'Absinthe Configurable Logic Framework',
-     'Edward Johns', 'manual'),
+     author, 'manual'),
 ]
 
 
