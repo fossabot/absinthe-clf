@@ -1,0 +1,5 @@
+doit
+wheel
+setuptools
+sphinx
+sphinx-autobuild
