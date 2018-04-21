@@ -3,6 +3,6 @@ sudo: required
 language: generic
 before_install:
   - sudo apt-get update
-  - sudo apt-get install python3 python3.4-venv texlive-full
+  - sudo apt-get install python3.4 python3.4-venv texlive-full
 script:
   - python3 dodo.py
