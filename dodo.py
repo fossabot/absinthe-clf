@@ -15,15 +15,6 @@ def task_create_test_report():
     'verbosity': 2
   }
 
-def task_create_docs():
-  """"""
-  from doit.action import CmdAction
-
-  return {
-    'actions': [CmdAction('../venv/bin/sphinx-build -M latexpdf source build', cwd = 'docs')],
-    'verbosity': 1
-  }
-
 if __name__ == '__main__':
     from subprocess import call
 
