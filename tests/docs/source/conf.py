@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'AbsintheCLFTestReport.tex', 'Absinthe Configurable Logic Framework',
+    (master_doc, 'AbsintheCLFTestReport.tex', 'Absinthe Configurable Logic Framework Test Report',
      author, 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'absinthe-clf-test-report', 'Absinthe Configurable Logic Framework',
+    (master_doc, 'absinthe-clf-test-report', 'Absinthe Configurable Logic Framework Test Report',
      [author], 1)
 ]
 
