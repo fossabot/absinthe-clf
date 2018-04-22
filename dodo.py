@@ -9,8 +9,9 @@ def task_run_tests():
 
 def task_create_test_report():
   """Create HTML and PDF test reports from rst files."""
+  from doit.action import CmdAction
   return {
-    'actions': [lambda : print("  not implemented.")],
+    'actions': [CmdAction('../../venv/bin/sphinx-build -M html source build', cwd = 'tests/docs'), CmdAction('../../venv/bin/sphinx-build -M latexpdf source build', cwd = 'tests/docs')],
     'verbosity': 2
   }
 
@@ -19,7 +20,7 @@ def task_create_docs():
   from doit.action import CmdAction
 
   return {
-    'actions': [CmdAction('sphinx-build -M latexpdf source build', cwd = 'docs')],
+    'actions': [CmdAction('../venv/bin/sphinx-build -M latexpdf source build', cwd = 'docs')],
     'verbosity': 1
   }
 

@@ -1,4 +1,5 @@
 .doit.db.db
 __pycache__
 docs/build
+tests/docs/build
 venv
