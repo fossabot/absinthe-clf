@@ -1,27 +1,5 @@
 #!venv/bin/python3
 
-def task_install_dependencies():
-  """Install required python modules"""
-
-  def install_dependencies(targets):
-    from setuptools.command import easy_install
-    import pip
-
-    for target in targets:
-      try:
-        __import__(target)
-        print('  found %s.' % (target))
-      except ImportError:
-        print('  installing %s...' % (target))
-        pip.main(['install', target])
-
-  return {
-    'actions': [install_dependencies],
-    'targets': ['myhdl', 'pytest'],
-    'file_dep': ['venv/bin/python3'],
-    'verbosity': 2
-  }
-
 def task_run_tests():
   """Run pytest tests."""
   return {
@@ -29,7 +7,7 @@ def task_run_tests():
     'verbosity': 2
   }
 
-def create_test_report():
+def task_create_test_report():
   """Create HTML and PDF test reports from rst files."""
   return {
     'actions': [lambda : print("  not implemented.")],

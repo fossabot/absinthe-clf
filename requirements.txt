@@ -1,5 +1,8 @@
+# Python modules required to build absinthe-clf
 doit
 wheel
 setuptools
 sphinx
 sphinx-autobuild
+myhdl
+pytest
