@@ -13,12 +13,12 @@ This is the beginning of what will have to be a very large and complex project. 
 ## Quick Start
 This project requires Python 3 to be installed on the development workstation. It creates a Python3 virtual environment in the absinthe-clf project directory.  Needed modules are installed into that virtual environment.
 
-To configure build environment:
+To create build environment:
 ```bash
 git clone https://github.com/edwardgjohns3/absinthe-clf.git
 cd absinthe-clf
 ```
-To perform build:
+To download build tools and perform build:
 ```bash
 python3 dodo.py
 ```
