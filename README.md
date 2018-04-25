@@ -1,4 +1,5 @@
 # absinthe-clf [![License: MIT](https://img.shields.io/badge/license-MIT-4dc71f.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/edwardgjohns3/absinthe-clf.svg?branch=master)](https://travis-ci.org/edwardgjohns3/absinthe-clf) [![Documentation Status](https://readthedocs.org/projects/absinth-clf/badge/?version=latest)](http://absinth-clf.readthedocs.io/en/latest/?badge=latest)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fedwardgjohns3%2Fabsinthe-clf.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fedwardgjohns3%2Fabsinthe-clf?ref=badge_shield)
 Absinthe Configurable Logic Framework
 
 ## Project Goals
@@ -25,3 +26,7 @@ python3 dodo.py
 
 ## Documentation
 - https://absinth-clf.readthedocs.io
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fedwardgjohns3%2Fabsinthe-clf.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fedwardgjohns3%2Fabsinthe-clf?ref=badge_large)
